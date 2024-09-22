@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- sm nav -->
+  <nav class="navbar container-fluid d-flex d-md-none">
+    <div>
+      <h2>Hollo <span class="text-primary">Pavithra</span></h2>
+      <div class="btn-group">
+        <button class="btn btn-outline-white bg-white shadow-sm mt-2  me-5 rounded  dropdown-toggle" type="button"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fa fa-map-marker bg-white" aria-hidden="true "></i>
+          Rio De Janeiro ,Br
+        </button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item active">gandipark</li>
+          <li class="dropdown-item ">R.S puram</li>
+          <li class="dropdown-item">gandipuram</li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="d-flex ">
+      <button class="btn btn-outline-white bg-white p-2 me-5 shadow-sm  rounded-circle" type="button">
+        <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+  </nav>
+  <div class=" container d-md-none d-flex d-md-none justify-content-evenly m-4 ">
+    <div class="d-flex  d-md-none px-5  py-2 border border-0 shadow-sm  bg-light rounded-pill ">
+      <i class="fa fa-search pt-2 bg-light"></i>
+      <input class="form-control border border-0  bg-light shadow-none  " type="text" placeholder="search">
+    </div>
+    <div class="btn-group ms-4">
+      <button class="btn btn-outline-white bg-light  me-5 shadow-sm dropdown-toggle rounded-pill" type="button"
+        data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fa fa-language" aria-hidden="true"></i> language
+      </button>
+      <ul class="dropdown-menu">
+        <li class="dropdown-item active">Eng</li>
+        <li class="dropdown-item ">tamil</li>
+        <li class="dropdown-item">hindi</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container-fluid shadow-sm d-none d-md-block ">
+
+    <nav class="navbar bg-white  d-none d-md-flex  ">
+      <div>
+        <img src="./swiggy boy.JPG" alt="Bootstrap" height="50px">
+        <div class="btn-group">
+          <button class="btn btn-outline-white bg-white shadow-sm ms-5  me-5 rounded  dropdown-toggle" type="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa fa-map-marker bg-white" aria-hidden="true "></i>
+            Rio De Janeiro ,Br
+          </button>
+          <ul class="dropdown-menu">
+            <li class="dropdown-item active">gandipark</li>
+            <li class="dropdown-item ">R.S puram</li>
+            <li class="dropdown-item">gandipuram</li>
+          </ul>
+        </div>
+
+      </div>
+
+
+      <div class=" d-flex justify-content-evenly">
+        <div class="d-flex ps-2 me-5  mt-2 border border-0 shadow-sm">
+          <i class="fa fa-search pt-2 bg-white"></i>
+          <input class="form-control border border-0 rounded bg-white shadow-none d-flex" type="text"
+            placeholder="search">
+        </div>
+
+        <div class="btn-group">
+          <button class="btn btn-outline-white bg-white  me-5 shadow-sm dropdown-toggle" type="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Eng
+          </button>
+          <ul class="dropdown-menu">
+            <li class="dropdown-item active">Eng</li>
+            <li class="dropdown-item ">tamil</li>
+            <li class="dropdown-item">hindi</li>
+          </ul>
+        </div>
+        <button class="btn btn-outline-white bg-white p-2 me-5 shadow-sm" type="button"> <i style="font-size:24px"
+            class="fa">&#xf290;</i>
+        </button>
+        <button class="btn btn-info  me-5  btn-shadow-sm" type="button">login</button>
+
+      </div>
+    </nav>
+  </div>
+  <div class="row bg-light ">
+    <div class="  container-fluid  ms-md-5 mt-2  col-md-auto bg-white shadow-sm   d-none d-md-block">
+      <h2 class=" d-md-block d-none">CUISINES</h2>
+      <div class="d-none d-md-flex shadow-sm  rounded border border-0 bg-light ">
+        <i class="fa fa-search pt-3  bg-light  "></i>
+        <input class="form-control border border-0 rounded  bg-light " type="text" placeholder="search for cuisines ">
+      </div>
+      <div><img src="./bever.jpg " width="50" height="50" class="rounded-circle m-2  me-sm-5  me-md-3">Beverages</div>
+      <div><img src="./pizza.jpg " width="50" height="50" class="rounded-circle m-2   me-sm-5  me-md-3 ">Pizzafull</div>
+      <div><img src="./chinnes.jpg " width="50" height="50" class="rounded-circle m-2   me-sm-4  me-md-3 ">chinese</div>
+      <div><img src="./europen.png " width="50" height="50" class="rounded-circle  m-2  me-sm-4  me-md-3 ">Eropean</div>
+      <div><img src="./french.jpg " width="50" height="50" class="rounded-circle m-2  me-sm-4  me-md-3  ">french</div>
+      <div><img src="./burger.JPG " width="50" height="50" class="rounded-circle m-2  me-sm-4  me-md-3  ">Burger</div>
+      <div><img src="./laban.png " width="50" height="50" class="rounded-circle m-2  me-sm-4  me-md-3  ">Lebanesn</div>
+      <div><img src="./mexican.jpg " width="50" height="50" class="rounded-circle m-2  me-sm-4  me-md-3 ">Mexican</div>
+      <div><img src="./garden-salad.jpg " width="50" height="50" class="rounded-circle m-2  me-sm-4  me-md-3 ">salads
+      </div>
+      <div><img src="./thai.jpg " width="50" height="50" class="rounded-circle m-2  me-sm-4  me-md-3 ">Thai</div>
+
+
+    </div>
+    <div id="example" class="carousel slide bg-white  d-md-none" data-ride="carousel ">
+      <div class="carousel-inner ">
+        <div class="carousel-item active ">
+          <div class="d-flex justify-content-evenly">
+            <div class="text-center px-2"><img src="./bever.jpg " width="50" height="50"
+                class="rounded-circle "><h6>Beverages</h6></div>
+            <div><img src="./pizza.jpg " width="50" height="50" class="rounded-circle ">
+              <h6>Pizzafull</h6></div>
+            <div><img src="./chinnes.jpg " width="50" height="50" class="rounded-circle "><h6>chinese</h6></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex justify-content-evenly">
+            <div><img src="./europen.png " width="50" height="50" class="rounded-circle   "><h6>Eropean</h6></div>
+            <div><img src="./french.jpg " width="50" height="50" class="rounded-circle   "><h6>french</h6></div>
+            <div><img src="./burger.JPG " width="50" height="50" class="rounded-circle   "><h6>Burger</h6></div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="d-flex justify-content-evenly">
+            <div><img src="./laban.png " width="50" height="50" class="rounded-circle  ">
+              <h6>Lebanesn</h6>
+            </div>
+            <div><img src="./mexican.jpg " width="50" height="50" class="rounded-circle    ">
+            <h6>mexican</h6></div>
+            <div><img src="./garden-salad.jpg " width="50" height="50"
+                class="rounded-circle  "><h6>salads</h6></div>
+
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#example" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#example" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+
+
+    <div class="container-fluid mt-2  ms-3 col  bg-white ">
+      <div class="shadow-sm d-md-block d-none">
+        <nav class="navbar">
+          <div>
+            <span class="text-secondary">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><span class="text-dark">Home</span></li>
+                <li class="breadcrumb-item active" aria-current="page "><span class="text-info">Restaurants</span>
+                </li>
+              </ol>
+            </span>
+          </div>
+          <div>
+            <button class="btn btn-outline-white bg-white me-2  shadow-sm" type="button ">
+              <h6>sort</h6>
+            </button>
+            <button class="btn btn-outline-white bg-white me-2 shadow-sm " type="button">
+              <h6>Ratings</h6>
+            </button>
+            <button class="btn btn-outline-white  bg-white me-2 shadow-sm " type="button">
+              <h6>Cost per persons</h6>
+            </button>
+            <button class="btn btn-outline-white bg-white  me-2  shadow-sm" type="button">
+              <h6>Order type</h6>
+            </button>
+          </div>
+
+        </nav>
+      </div>
+    <!-- offer box -->
+
+      <div class="row d-none d-md-flex ">
+
+        <div class=" card  text-white col border border-0 p-0 m-1" style= "max-width: 600px;">
+          <img src="./off1.JPG  " class="card-img " alt="Stony Beach"style=" height:250px;" >
+          <div class="card-img-overlay">
+            <button class="btn btn-info ">OFFER</button>
+            <h3 class="card-tittle mt-5">50% Off</h3>
+            <p class="card-text">
+              Exclusive Offer On <br>
+              AI cuisines
+            </p>
+            <h4 class="card-text">ALBERTSONS</h4>
+          </div>
+        </div>
+
+        <div class="card  text-white col  border border-0 p-0 m-1"  style="max-width: 600px;">
+          <img src="./pizza.jpg " class="card-img" alt="Stony Beach "height="250px"  >
+          <div class="card-img-overlay">
+            <button class="btn btn-info ">OFFER</button>
+            <h3 class="card-tittle mt-5">50% Off</h3>
+            <p class="card-text">
+              Exclusive Offer On <br>
+              AI cuisines
+            </p>
+            <h4 class="card-text">ALBERTSONS</h4>
+          </div>
+        </div>
+        <div class="card  text-white col  border border-0 p-0 m-1"style="max-width: 600px;" >
+          <img src="./off3.webp" class="card-img" alt="Stony Beach"  style="height: 250px;"/>
+          <div class="card-img-overlay">
+            <button class="btn btn-info ">OFFER</button>
+            <h3 class="card-tittle mt-5  ">50% Off</h3>
+            <p class="card-text">
+              Exclusive Offer On <br>
+              AI cuisines
+            </p>
+            <h4 class="card-text">ALBERTSONS</h4>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="carouselExampleControls" class="carousel slide  d-block d-md-none " data-bs-ride="carousel ">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class=" card  text-white col-4 border border-0  m-3">
+              <img src="./off1.JPG " width="100%" class="card-img" alt="Stony Beach"
+            style="width:100vw;height:50vh;">
+              <div class="card-img-overlay">
+                <button class="btn btn-info ">OFFER</button>
+                <h3 class="card-tittle mt-5">50% Off</h3>
+                <p class="card-text">
+                  Exclusive Offer On <br>
+                  AI cuisines
+                </p>
+                <h4 class="card-text">ALBERTSONS</h4>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card  text-white col-4  border border-0 m-3 ">
+              <img src="./pizza.jpg " class="card-img" alt="Stony Beach"
+              style="width:100vw;" />
+              <div class="card-img-overlay">
+                <button class="btn btn-info ">OFFER</button>
+                <h3 class="card-tittle mt-5">50% Off</h3>
+                <p class="card-text">
+                  Exclusive Offer On <br>
+                  AI cuisines
+                </p>
+                <h4 class="card-text">ALBERTSONS</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="card  text-white col-4 border border-0  m-3" >
+              <img src="./off3.webp" class="card-img " alt="Stony Beach"
+              style="width:100vw; "/>
+              <div class="card-img-overlay">
+                <button class="btn btn-info ">OFFER</button>
+                <h3 class="card-tittle mt-5  ">50% Off</h3>
+                <p class="card-text">
+                  Exclusive Offer On <br>
+                  AI cuisines
+                </p>
+                <h4 class="card-text">ALBERTSONS</h4>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+
+      <h2 class="text-dark mt-5">Recomanded Restaurants</h2>
+      <div class="row flex-md-row ">
+        <div class="col-md-4 d-flex col-12  mt-5 ">
+          <img src="./food zone.JPG " width="100px" height="130px" class="rounded ">
+
+          <div class=" ms-3">
+            <h5>Food Zone</h5>
+            <p>gallaxy</p>
+            <button class="btn btn-outline-white mt-0"><i class="fas fa-star"></i>4.1 Order:$500</button>
+          </div>
+        </div>
+        <div class=" col-md-4 d-flex col-12   mt-5 ">
+          <img src="./maha.JPG" height="130px" width="100px" class="rounded ">
+
+          <div class="  ms-3">
+            <h5>Maha Food Bazaar</h5>
+            <span>gallaxy</span><br>
+            <div class="text-success pt-0">50% off :
+              Live 1hr</div>
+
+
+            <button class="btn btn-outline-white"><span><i class="fas fa-star"></i>4.1 Order:$500</span></button>
+
+          </div>
+        </div>
+        <div class=" col-md-4 d-flex  col-12  mt-5  ">
+          <img src="./heri.JPG " class="rounded " width="100px" height="130px ">
+
+          <div class="  ms-3">
+            <h5>Heritance</h5>
+            <p>gallaxy</p>
+            <button class="btn btn-outline-white"><i class="fas fa-star"></i>4.1 Order:$500</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row   row flex-md-row d-sm-col flex-sm-column">
+        <div class=" col-md-4 d-flex  col-12  mt-5 ">
+          <img src="./mexican.jpg " width="100px" height="130px " class="rounded ">
+
+          <div class=" ms-3  ">
+            <h5>Superior burger</h5>
+            <p>gallaxy</p>
+            <button class="btn btn-outline-white"><i class="fas fa-star"></i>4.1 Order:$500</button>
+          </div>
+        </div>
+        <div class=" col-md-4 d-flex  col-12   mt-5 ">
+          <img src="./alber.JPG" width="100px" height="130px " class="rounded ">
+
+          <div class="ms-3">
+            <h5>Albertsons</h5>
+            <p>gallaxy</p>
+            <button class="btn btn-outline-white"><span><i class="fas fa-star"></i>4.1 Order:$500</span></button>
+          </div>
+        </div>
+
+
+        <div class=" col-md-4 d-flex col-12  mt-5 ">
+          <img src="./ralp.JPG" class="rounded me-2" width="100px" height="130px">
+
+          <div class="ms-3">
+            <h5>Ralp</h5>
+            <p>gallaxy</p>
+            <button class="btn btn-outline-white btn-text-dark"><i class="fas fa-star"></i>4.1 Order:$500</button>
+
+          </div>
+        </div>
+      </div>
+      <div class="row   row flex-md-row d-sm-col flex-sm-column">
+        <div class=" col-md-4 col-12 d-flex  mt-5  ">
+          <img src="./gelson (2).JPG " width="100px" height="130px " class="rounded ">
+
+          <div class="ms-3">
+            <h5>Gelson's</h5>
+            <p>gallaxy</p>
+            <button class="btn btn-outline-white"><i class="fas fa-star"></i>4.1 Order:$500</button>
+          </div>
+        </div>
+        <div class=" col-md-4  col-12 d-flex  mt-5 ">
+          <img src="./mint.JPG" width="100px" height="130px " class="rounded  shadow-lg ms-2">
+          <div class="ms-3">
+            <h5>Mint Fresh</h3>
+              <span>gallaxy</span>
+              <div class="text-success"> 50%
+                off : Live 1hr</div>
+
+
+              <button class="btn btn-outline-white"><span><i class="fas fa-star"></i>4.1 Order:$500</span></button>
+          </div>
+        </div>
+
+        <div class=" col-md-4 col-12 d-flex  mt-5  ">
+          <img src="./pizza.jpg" class="rounded  ms-3" width="100px" height="130px ">
+          <div class="ms-3">
+            <h5>Pizza</h5>
+            <p>gallaxy</p>
+            <button class="btn btn-outline-white"><i class="fas fa-star"></i>4.1 Order:$500</button>
+
+          </div>
+        </div>
+
+
+      </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
